@@ -20,8 +20,9 @@ const Materi2 = () => {
         "Saya suka lembur",
     ];
 
-    const kurangUmur = () => { 
-        setUmur (umur - 1);
+    const kurangUmur = () => {
+        if(umur != 0 ) 
+            setUmur (umur - 1);
     };
 
     const tambahUmur = () => {
@@ -51,7 +52,7 @@ const Materi2 = () => {
                                 Contoh Lain Pengunaan UseState
                             </h5>
                             <h5 className="text-start">
-                                Umur Saya: {umur}, dan saya{" "}
+                                Umur Saya: {umur}, dan {" "}
                                 {umur <= 25 ? "saya masih muda" : "saya sudah tua"}.
                             </h5>
                             <div className="d-flex justify-content-start">

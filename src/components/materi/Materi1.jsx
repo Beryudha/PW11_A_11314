@@ -32,7 +32,7 @@ function Materi1() {
     };
 
     return (
-        <div calssName="p-5">
+        <div className="p-5">
             <h1 className="mb-2">Berfokus Pada Penggunaan Use State</h1>
 
             {/* Input Pertama */}

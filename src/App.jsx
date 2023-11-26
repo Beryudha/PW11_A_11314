@@ -15,11 +15,17 @@ import CardBackground from "./components/card/CardBackgound";
 // Import Components Content
 import Content from "./components/content/Content";
 
-// Import Components Game 1
+// Import Components Materi 1
 import Materi1 from "./components/materi/Materi1.jsx";
 
-// Import Components Card Background
+// Import Components Materi 2
 import Materi2 from "./components/materi/Materi2.jsx";
+
+// Import Components Game 1
+import Game1 from "./components/game/Game1.jsx";
+
+// Import Components Game 2
+import Game2 from "./components/game/Game2.jsx";
 
 // Import Image untuk memanggil gambar
 import Image from "./assets/Image.jsx";
@@ -124,6 +130,21 @@ function App() {
         <h1 className="judulContent">Materi 2</h1>
         <CardBackground>
           <Materi2 />
+        </CardBackground>
+      </div>
+
+      {/* Container Untuk Game 1 */}
+      <div className="container container-content">
+        <h1 className="judulContent">Game 1</h1>
+          <CardBackground>
+            <Game1 />
+          </CardBackground>
+      </div>
+      {/* Container Untuk Game 2 */}
+      <div className="container container-content">
+        <h1 className="judulContent">Game 2</h1>
+        <CardBackground>
+          <Game2 />
         </CardBackground>
       </div>
     </>
